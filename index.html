@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Book</title>
+    <style>/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    color: #f1c40f;
+}
+
+.book-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.book-container {
+    display: flex;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.book-cover {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-cover:hover {
+    transform: scale(1.05);
+}
+
+.book-details {
+    text-align: left;
+    max-width: 400px;
+}
+
+.book-details h2 {
+    font-size: 1.8rem;
+    color: #f1c40f;
+}
+
+.book-details p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f1c40f;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.read-more:hover {
+    background: #e67e22;
+}
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>My Favorite Book</h1>
+        <p class="name">Joe Rakesh A | 23UBC506</p>
+    </header>
+
+    <section class="book-section">
+        <div class="book-container">
+            <img src="https://m.media-amazon.com/images/I/71sBtM3Yi5L._AC_UF1000,1000_QL80_.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <h2>The Power of Your Subconscious Mind</h2>
+                <p><strong>Author:</strong> Dr. Joseph Murphy</p>
+                <p><strong>Genre:</strong> Self Help</p>
+                <p class="description">
+                    "The Power of Your Subconscious Mind" is one of the most promising self improvement books that i read. This book is designed to help you improve my relationships health and also to give an internal strength that makes every hurdle look small.
+                </p>
+            </div>
+        </div>
+        <div class="book-container">
+            <img src="https://m.media-amazon.com/images/I/81Dky+tD+pL.jpg" alt="Book Cover" class="book-cover">
+            <div class="book-details">
+                <h2>The Psychology of Money</h2>
+                <p><strong>Author:</strong> Morgan Housel</p>
+                <p><strong>Genre:</strong> Self Help</p>
+                <p class="description">
+                   Timeless lessons on wealth, greed, and happiness doing well with money isn?t necessarily about what you know. It?s about how you behave. And behavior is hard to teach, even to really smart people.
+                </p>
+                <a href="https://docs.google.com/document/d/1Um-MyIhmSZkzfgS-Vayl-i7fugyqJikgp3laqm5D1CI/edit?usp=sharing"  class="read-more" target="_blank">My Note</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
